@@ -3,13 +3,13 @@
 Summary:	A python binding to libmtp
 Name:		python-%{module}
 Version:	0.0.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv3
 Group:		Development/Python
 Url:		http://nick125.com/projects/pymtp
 Source0:	http://downloads.nick125.com/projects/pymtp/%{module}-%{version}.tar.bz2
 BuildRequires:	python-devel
-Requires:	%{_lib}mtp7
+Requires:	mtp-utils
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
