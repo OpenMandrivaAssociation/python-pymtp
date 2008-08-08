@@ -3,7 +3,7 @@
 Summary:	A python binding to libmtp
 Name:		python-%{module}
 Version:	0.0.4
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPLv3
 Group:		Development/Python
 Url:		http://nick125.com/projects/pymtp
