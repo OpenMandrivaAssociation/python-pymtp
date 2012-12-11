@@ -36,3 +36,32 @@ python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc examples README
 %{py_puresitedir}/*
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.0.4-6mdv2010.0
++ Revision: 442443
+- rebuild
+
+* Sun Dec 28 2008 Götz Waschk <waschk@mandriva.org> 0.0.4-5mdv2009.1
++ Revision: 320645
+- rebuild for new python
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.0.4-4mdv2009.0
++ Revision: 269039
+- rebuild early 2009.0 package (before pixel changes)
+
+* Fri Apr 18 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.0.4-3mdv2009.0
++ Revision: 195632
+- fix buildrequires
+- package is no more noarch
+
+* Fri Apr 18 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.0.4-2mdv2009.0
++ Revision: 195483
+- fix requires
+
+* Thu Apr 17 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.0.4-1mdv2009.0
++ Revision: 195275
+- add source and spec file
+- Created package structure for python-pymtp.
+
