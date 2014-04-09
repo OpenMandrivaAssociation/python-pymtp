@@ -2,13 +2,14 @@
 %define debug_package %{nil}
 
 Summary:	A python binding to libmtp
+
 Name:		python-%{module}
-Version:	0.0.4
-Release:	7
+Version:	0.0.6
+Release:	1
 License:	GPLv3
 Group:		Development/Python
 Url:		http://nick125.com/projects/pymtp
-Source0:	http://downloads.nick125.com/projects/pymtp/%{module}-%{version}.tar.bz2
+Source0:	https://pypi.python.org/packages/source/P/PyMTP/PyMTP-%{version}.tar.gz
 BuildRequires:	python-devel
 Requires:	libmtp-utils
 
@@ -30,3 +31,4 @@ python setup.py install --root=%{buildroot}
 %files
 %doc examples README
 %{py_puresitedir}/*
+
