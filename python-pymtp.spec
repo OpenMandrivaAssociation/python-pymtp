@@ -20,7 +20,7 @@ These devices include the Creative Zen, Microsoft Zune,
 Normsoft Pocket Tunes and many more.
 
 %prep
-%setup -qn %{module}-%{version}
+%setup -qn PyMTP-%{version}
 
 %build
 env CFLAGS="%{optflags}" python setup.py build
