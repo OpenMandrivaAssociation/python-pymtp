@@ -8,7 +8,7 @@ Version:	0.0.6
 Release:	2
 License:	GPLv3
 Group:		Development/Python
-Url:		http://nick125.com/projects/pymtp
+Url:		https://nick125.com/projects/pymtp
 Source0:	https://pypi.python.org/packages/source/P/PyMTP/PyMTP-%{version}.tar.gz
 BuildRequires:	python-devel
 Requires:	libmtp-utils
